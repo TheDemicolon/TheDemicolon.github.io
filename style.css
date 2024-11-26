@@ -1,23 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat:wght@200&display=swap');
 body {
+    margin: 0;
+    padding: 0;
     color:white;
-    background: linear-gradient(-45deg, #23d5cc, #52a0ee, #2385d5);
-    background-size: 400% 400%;
-    animation: gradient 7s ease infinite;
     height: 100vh;
-  }
+}
+
+.grad1 {
+    background: linear-gradient(-45deg, #23d5cc, #52a0ee, #2385d5);
+}
+.grad2 {
+    background: linear-gradient(-45deg, #f79722, #ff662a);
+}
+
+.anig {
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+}
   
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+@keyframes gradient {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
 
   
 .montserrat-main {
@@ -31,9 +42,33 @@ font-style: normal;
     position: absolute; 
     text-align: center;
     width: 50%;
-    background-color:rgba(0, 0, 0, 0.3);
+    background-color:#0004;
     padding:10px 20px;
     border-radius: 100%;
     display:flex;
     align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0004;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #0004;
 }
