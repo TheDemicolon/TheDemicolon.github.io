@@ -13,6 +13,10 @@ body {
     background: linear-gradient(-45deg, #f79722, #ff662a);
 }
 
+.grad3 {
+    background: linear-gradient(-45deg, #575757, #1d1d1d);
+}
+
 .anig {
     background-size: 400% 400%;
     animation: gradient 3s ease infinite;
@@ -32,21 +36,53 @@ body {
 
   
 .montserrat-main {
-font-family: "Montserrat", sans-serif;
-font-optical-sizing: auto;
-font-weight: 200;
-font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.box {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    background-color: #0005;
+    margin: 50px;
+    display: flex;
+}
+
+.box img {
+    border-radius: 10px;
+}
+
+.box div {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+table {
+    width: 80%;
+    table-layout: fixed;
+    height: auto;
+    bottom: 0px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin: 10%;
 }
 
 .center {
-    position: absolute; 
-    text-align: center;
-    width: 50%;
-    background-color:#0004;
-    padding:10px 20px;
-    border-radius: 100%;
-    display:flex;
-    align-items: center;
+    border-radius: 10px;
+    background-color: #0005;
+    width: 70%;
+    height: auto;
+    bottom: 0px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin: 10%;
+    padding: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
@@ -67,8 +103,57 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: background-color .3s;
+    font-size: medium;
 }
 
 nav li a:hover {
-    background-color: #0004;
+    background-color: #0006;
+}
+
+.swflex {
+    flex-basis: 32%;
+    padding: 0px 50px;
+    text-align: center;
+}
+
+#p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clink {
+    display: flex;
+    flex-direction: column;
+}
+
+.clink a{
+    color:white;
+    text-decoration: none;
+}
+
+.clink a:hover{
+    text-decoration: underline;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background-color:#0004;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #0008;
+    padding: 10px 20px;
+}
+
+.modal:target {
+    display: flex;
 }
