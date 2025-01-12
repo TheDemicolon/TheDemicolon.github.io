@@ -103,7 +103,7 @@ a{
     font-weight: 500;
 }
 
-a:hover {
+a:hover:not(nav){
     text-decoration: underline;
 }
 
