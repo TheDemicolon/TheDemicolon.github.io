@@ -36,8 +36,6 @@ body {
 }
 }
 
-  
-
 .montserrat-main {
     font-family: "Ubuntu", serif;
     font-weight: 300;
@@ -99,6 +97,16 @@ nav li {
     float: left;
 }
 
+a{
+    color:#60c7fe;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 nav li a {
     color: #fff;
     display: block;
@@ -128,15 +136,6 @@ nav li a:hover {
 .clink {
     display: flex;
     flex-direction: column;
-}
-
-.clink a{
-    color:white;
-    text-decoration: none;
-}
-
-.clink a:hover{
-    text-decoration: underline;
 }
 
 .modal {
