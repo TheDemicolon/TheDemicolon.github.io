@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -7,14 +9,14 @@ body {
 }
 
 .grad1 {
-    background: linear-gradient(-45deg, #23d5cc, #52a0ee, #2385d5);
+    background: linear-gradient(-45deg, #4fe773, #60c7fe, #4aa0e7);
 }
 .grad2 {
-    background: linear-gradient(-45deg, #f79722, #ff662a);
+    background: linear-gradient(-45deg, #fbe81e, #ff662a, #ff2a63);
 }
 
 .grad3 {
-    background: linear-gradient(-45deg, #575757, #1d1d1d);
+    background: linear-gradient(-45deg, #575757, #707070);
 }
 
 .anig {
@@ -35,10 +37,10 @@ body {
 }
 
   
+
 .montserrat-main {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
     font-style: normal;
 }
 
