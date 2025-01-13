@@ -136,8 +136,13 @@ nav li a:hover {
 
 .swflex {
     flex-basis: 32%;
-    padding: 0px 50px;
+    padding: 0px 20px;
     text-align: center;
+    font-size: small;
+}
+
+.swflex img{
+    border-radius: 10px;
 }
 
 #p {
